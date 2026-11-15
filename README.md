@@ -1,16 +1,16 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ricardodpalmeida/openclaw-multicloud-docs-mcp/main/.github/assets/banner-dark.jpg">
-  <img alt="multicloud docs mcp: cloud and AI platform answers grounded in each vendor's own docs, with sources. A search box asks for the Lambda maximum function timeout, grey answer lines end in a blue citation, and six source chips name docs.aws.amazon.com, learn.microsoft.com, docs.cloud.google.com, developers.cloudflare.com, developers.openai.com and platform.claude.com." src="https://raw.githubusercontent.com/Ricardodpalmeida/openclaw-multicloud-docs-mcp/main/.github/assets/banner-light.jpg">
+  <img alt="Multi-cloud Docs: cloud and AI platform answers grounded in each vendor's own docs, with sources. A search box asks for the Lambda maximum function timeout, grey answer lines end in a blue citation, and six source chips name docs.aws.amazon.com, learn.microsoft.com, docs.cloud.google.com, developers.cloudflare.com, developers.openai.com and platform.claude.com." src="https://raw.githubusercontent.com/Ricardodpalmeida/openclaw-multicloud-docs-mcp/main/.github/assets/banner-light.jpg">
 </picture>
 
 <p align="center">
   <a href="LICENSE"><img alt="License: MIT-0" src="https://img.shields.io/badge/license-MIT--0-1F5AA6?style=flat-square"></a>
   <img alt="Agent Skill" src="https://img.shields.io/badge/Agent%20Skill-SKILL.md-18191B?style=flat-square">
-  <a href="https://clawhub.ai/ricardodpalmeida/skills/multicloud-docs-mcp"><img alt="On ClawHub" src="https://img.shields.io/badge/ClawHub-multicloud--docs--mcp-6B7280?style=flat-square"></a>
+  <a href="https://clawhub.ai/ricardodpalmeida/skills/multicloud-docs-mcp"><img alt="On ClawHub" src="https://img.shields.io/badge/ClawHub-Multi--cloud%20Docs-6B7280?style=flat-square"></a>
   <img alt="API key only for Google" src="https://img.shields.io/badge/API%20key-only%20for%20Google-6B7280?style=flat-square">
 </p>
 
-Models answer cloud questions from training data, and service limits, SDK versions and API shapes change faster than that data. **Multi-cloud Docs MCP** is an Agent Skill that grounds your agent's answers in each vendor's current documentation, through the public MCP server the vendor itself hosts, and cites the pages it used. It covers Microsoft, AWS, Google, Cloudflare, OpenAI and Anthropic with one HTTP call per lookup, no saved configuration and no API key, except for Google.
+Models answer cloud questions from training data, and service limits, SDK versions and API shapes change faster than that data. **Multi-cloud Docs** is an agent skill for official cloud and AI documentation via MCP. It grounds your agent's answers in each vendor's current documentation, through the public MCP server the vendor itself hosts, and cites the pages it used. It covers Microsoft, AWS, Google, Cloudflare, OpenAI and Anthropic with one HTTP call per lookup, no saved configuration and no API key, except for Google.
 
 This answer comes from a real run, where the agent was asked for the maximum timeout of an AWS Lambda function and picked the skill up by itself:
 

@@ -1,6 +1,6 @@
 ---
 name: multicloud-docs-mcp
-description: "Grounds cloud and AI platform answers in current first-party documentation through each vendor's own public MCP server: Microsoft Learn, AWS, Google Cloud, Cloudflare, OpenAI and Anthropic. Use for service limits, APIs, SDKs, CLI commands, regional availability or explicit documentation verification. One HTTP call per lookup; no API key except Google."
+description: "Agent skill for official cloud and AI documentation via MCP. Covers Microsoft Learn, AWS, Google Cloud, Cloudflare, OpenAI and Anthropic. Use for service limits, APIs, SDKs, CLI commands, regional availability or explicit documentation verification. One HTTP call per lookup; no API key except Google."
 license: MIT-0
 metadata:
   {
@@ -12,7 +12,7 @@ metadata:
   }
 ---
 
-# Multi-cloud Docs MCP
+# Multi-cloud Docs
 
 Each vendor below hosts a public, read-only Streamable HTTP MCP server for its own documentation. Use the row of the vendor the question is about; general programming needs no lookup.
 

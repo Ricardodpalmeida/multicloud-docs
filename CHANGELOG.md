@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1
+
+- Rename the public presentation to Multi-cloud Docs and clarify the description: an agent skill for official cloud and AI documentation via MCP.
+- Update README branding and light/dark banners. Keep MCP as a discovery topic.
+- Preserve the technical skill identifier, repository URLs, installation commands, lookup workflow, endpoints, usage criteria and limits.
+
 ## 1.0.0
 
 - Initial release: one skill for the first-party documentation MCP servers of Microsoft, AWS, Google, Cloudflare, OpenAI and Anthropic, with a stateless single-request access path and a web fallback for vendors without a server.
