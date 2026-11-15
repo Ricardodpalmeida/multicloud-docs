@@ -7,7 +7,7 @@ metadata:
     "openclaw":
       {
         "emoji": "📚",
-        "homepage": "https://github.com/Ricardodpalmeida/openclaw-multicloud-docs-mcp",
+        "homepage": "https://github.com/Ricardodpalmeida/multicloud-docs",
       },
   }
 ---

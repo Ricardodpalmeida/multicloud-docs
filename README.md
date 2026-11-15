@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ricardodpalmeida/openclaw-multicloud-docs-mcp/main/.github/assets/banner-dark.jpg">
-  <img alt="Multi-cloud Docs: cloud and AI platform answers grounded in each vendor's own docs, with sources. A search box asks for the Lambda maximum function timeout, grey answer lines end in a blue citation, and six source chips name docs.aws.amazon.com, learn.microsoft.com, docs.cloud.google.com, developers.cloudflare.com, developers.openai.com and platform.claude.com." src="https://raw.githubusercontent.com/Ricardodpalmeida/openclaw-multicloud-docs-mcp/main/.github/assets/banner-light.jpg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ricardodpalmeida/multicloud-docs/main/.github/assets/banner-dark.jpg">
+  <img alt="Multi-cloud Docs: cloud and AI platform answers grounded in each vendor's own docs, with sources. A search box asks for the Lambda maximum function timeout, grey answer lines end in a blue citation, and six source chips name docs.aws.amazon.com, learn.microsoft.com, docs.cloud.google.com, developers.cloudflare.com, developers.openai.com and platform.claude.com." src="https://raw.githubusercontent.com/Ricardodpalmeida/multicloud-docs/main/.github/assets/banner-light.jpg">
 </picture>
 
 <p align="center">
@@ -47,17 +47,19 @@ Google's server needs an API key from a Google Cloud project with the Developer 
 
 ## Install
 
-OpenClaw is the primary target:
+The folder follows the Agent Skills format and works with compatible agents.
+
+For OpenClaw:
 
 ```bash
 openclaw skills install @ricardodpalmeida/multicloud-docs-mcp            # this workspace
 openclaw skills install @ricardodpalmeida/multicloud-docs-mcp --global   # all agents
 ```
 
-The folder is a standard Agent Skill, so other agents that read `SKILL.md` can use it too. Clone it into the agent's skills folder under the skill's name, for example:
+For agents that read `SKILL.md` directly, clone it into the agent's skills folder under the skill's name. For example, with Claude Code:
 
 ```bash
-git clone https://github.com/Ricardodpalmeida/openclaw-multicloud-docs-mcp ~/.claude/skills/multicloud-docs-mcp
+git clone https://github.com/Ricardodpalmeida/multicloud-docs ~/.claude/skills/multicloud-docs-mcp
 ```
 
 Use `~/.codex/skills/multicloud-docs-mcp` for Codex or `~/.copilot/skills/multicloud-docs-mcp` for GitHub Copilot.
