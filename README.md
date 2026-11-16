@@ -25,6 +25,10 @@ Status:   The cited page does not label these limits as preview.
 Gaps:     None for the documented timeout limits.
 ```
 
+## Quick navigation
+
+[How it works](#how-it-works) · [Install](#install) · [Server access](#connect-the-servers) · [Package contents](#what-is-inside) · [Release notes](CHANGELOG.md)
+
 ## How it works
 
 1. The agent picks the vendor the question is about and searches that vendor's documentation, putting the product, feature and version or tier in the query.

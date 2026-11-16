@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4 (2026-11-16)
+
+- Documentation only: Add concise README navigation to the workflow, installation, server access, package contents and release history. Agent instructions, code, operational references, examples, templates, dependencies and configuration are unchanged.
+
 ## 1.0.2
 
 - Point the skill homepage, README links and clone command at the renamed repository, `Ricardodpalmeida/multicloud-docs`. The skill identifier, install commands, lookup workflow, endpoints and limits are unchanged.
