@@ -10,6 +10,8 @@
   <img alt="API key only for Google" src="https://img.shields.io/badge/API%20key-only%20for%20Google-6B7280?style=flat-square">
 </p>
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/ricardodpalmeida-multicloud-docs-j13oz7?v=ba45f8cffdbe450d9c2565d8aabaf17c)](https://m8ven.ai/mcp/ricardodpalmeida-multicloud-docs-j13oz7?s=readme)
+
 Models answer cloud questions from training data, and service limits, SDK versions and API shapes change faster than that data. **Multi-cloud Docs** is an agent skill for official cloud and AI documentation via MCP. It grounds your agent's answers in each vendor's current documentation, through the public MCP server the vendor itself hosts, and cites the pages it used. It covers Microsoft, AWS, Google, Cloudflare, OpenAI and Anthropic with one HTTP call per lookup, no saved configuration and no API key, except for Google.
 
 This answer comes from a real run, where the agent was asked for the maximum timeout of an AWS Lambda function and picked the skill up by itself:
